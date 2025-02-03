@@ -9,13 +9,13 @@ class Config:
 
     API_ID = int(os.environ.get("API_ID","2944318"))
 
-    API_HASH = os.environ.get("API_HASH","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")
+    API_HASH = os.environ.get("API_HASH","e9746721493a910d201d898b4329da8f")
 
     CLIENT_ID = os.environ.get("CLIENT_ID","69689902615-3b0c0tgg7me2pulu9vftvnsf9o9mpf6i.apps.googleusercontent.com")
 
     CLIENT_SECRET = os.environ.get("CLIENT_SECRET","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")
 
-    BOT_OWNER = int(os.environ.get("BOT_OWNER",6865672542"))
+    BOT_OWNER = int(os.environ.get("BOT_OWNER","6865672542"))
 
     AUTH_USERS_TEXT = os.environ.get("AUTH_USERS", "")
 
