@@ -3,19 +3,19 @@ import os
 
 class Config:
 
-    BOT_TOKEN = os.environ.get("BOT_TOKEN","6754465323:AAFBJEW3cCuni3WZ_6oerxGRlI4yCFrYZl4")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN","7619364034:AAHsuBrDWONcUzCPv8iMBehfh7GeojenSWk")
 
     SESSION_NAME = os.environ.get("SESSION_NAME", ":memory:")
 
     API_ID = int(os.environ.get("API_ID","2944318"))
 
-    API_HASH = os.environ.get("API_HASH","e9746721493a910d201d898b4329da8f")
+    API_HASH = os.environ.get("API_HASH","9e93d41112872cc3bd58f4e29fd82c0a")
 
     CLIENT_ID = os.environ.get("CLIENT_ID","69689902615-3b0c0tgg7me2pulu9vftvnsf9o9mpf6i.apps.googleusercontent.com")
 
     CLIENT_SECRET = os.environ.get("CLIENT_SECRET","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")
 
-    BOT_OWNER = int(os.environ.get("BOT_OWNER","6865672542"))
+    BOT_OWNER = int(os.environ.get("BOT_OWNER","7651377821"))
 
     AUTH_USERS_TEXT = os.environ.get("AUTH_USERS", "")
 
